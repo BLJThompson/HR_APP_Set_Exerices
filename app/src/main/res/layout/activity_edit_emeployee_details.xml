@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditEmployeeDetails">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="719dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <!-- LinearLayout to organize the content vertically -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- First Name -->
+                <TextView
+                    android:id="@+id/editFirstNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="First Name"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editFirstName"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter First Name"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Last Name -->
+                <TextView
+                    android:id="@+id/editLastNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Last Name"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editLastName"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Last Name"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Date of Birth -->
+                <TextView
+                    android:id="@+id/editDobLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Date of Birth"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editDob"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Date of Birth"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Email -->
+                <TextView
+                    android:id="@+id/editEmailLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Email"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Email"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Phone Number -->
+                <TextView
+                    android:id="@+id/editPhoneLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Phone Number"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editPhone"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Phone Number"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Job Title -->
+                <TextView
+                    android:id="@+id/editJobTitleLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Job Title"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editJobTitle"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Job Title"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Department -->
+                <TextView
+                    android:id="@+id/editDepartmentLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Department"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editDepartment"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Department"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Salary -->
+                <TextView
+                    android:id="@+id/editSalaryLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Salary"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editSalary"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Salary"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Account Number -->
+                <TextView
+                    android:id="@+id/editAccountNumberLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Account Number"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editAccountNumber"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Account Number"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Sort Code -->
+                <TextView
+                    android:id="@+id/editSortCodeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Sort Code"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editSortCode"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Sort Code"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- National Insurance Number -->
+                <TextView
+                    android:id="@+id/editNationalInsuranceLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="National Insurance Number"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editNationalInsurance"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter National Insurance Number"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Start Date -->
+                <TextView
+                    android:id="@+id/editStartDateLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Start Date"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editStartDate"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Start Date"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Manager -->
+                <TextView
+                    android:id="@+id/editManagerLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Manager"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editManager"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Manager Name"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Team Leader -->
+                <TextView
+                    android:id="@+id/editTeamLeaderLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Team Leader"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editTeamLeader"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Team Leader Name"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Employee Number -->
+                <TextView
+                    android:id="@+id/editEmployeeNumberLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Employee Number"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editEmployeeNumber"
+                    android:layout_width="350dp"
+                    android:layout_height="48dp"
+                    android:hint="Enter Employee Number"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+                <!-- Edit Button at the bottom -->
+                <Button
+                    android:id="@+id/editButton"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:backgroundTint="#4CAF50"
+                    android:padding="16dp"
+                    android:text="Submit Changes"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/headerLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="My Profile"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:itemHorizontalTranslationEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageButton
+                android:id="@+id/home_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="home button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/baseline_home_24" />
+
+            <ImageButton
+                android:id="@+id/menu_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="menu button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baseline_menu_24"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

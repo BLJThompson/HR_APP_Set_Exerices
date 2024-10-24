@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HR APP</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="harmonizehr">HarmonizeHR</string>
+    <string name="sign_in_using_company_account">Sign in using company account</string>
+    <string name="reset_password">Reset password</string>
+    <string name="_30">30</string>
+    <string name="days_remaining">Days remaining</string>
+    <string name="entitlement">Entitlement:</string>
+    <string name="holiday_requests">Holiday Requests</string>
+    <string name="annual_leave_n14_march_nall_day_n5_days">Annual Leave\n14 March\nAll day\n5 days</string>
+    <string name="home_button">home button</string>
+    <string name="menu_button">menu button</string>
+    <string name="_14">14</string>
+    <string name="march">March</string>
+    <string name="next_leave">Next Leave:</string>
+    <string name="request">Request +</string>
+    <string name="cancel">Cancel</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="total">Total</string>
+    <string name="leave_type">Leave Type</string>
+    <string name="leave_hours">Leave hours</string>
+    <string name="holiday_request">Holiday Request</string>
+    <string name="clear">Clear</string>
+</resources>
