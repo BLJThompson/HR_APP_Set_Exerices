@@ -17,7 +17,7 @@ public class HolidayMenu extends AppCompatActivity {
 
     private Button requestButton;
     private Button viewButton;
-
+//    private Button cancelButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
